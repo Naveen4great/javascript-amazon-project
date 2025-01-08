@@ -1,5 +1,9 @@
 export function formatCurrency(priceCents) {
 
- return (Math.round(priceCents) / 100).toFixed(2);
+ const number =  ((Math.round(priceCents) / 100)*85).toFixed(0);
+
+ const formatter = new Intl.NumberFormat('en-US');
+
+ return formatter.format(number);
 
 }

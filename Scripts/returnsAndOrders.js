@@ -36,7 +36,7 @@ function renderOrdersPage() {
               </div>
               <div class="order-total">
                 <div class="order-header-label">Total:</div>
-                <div>$${formatCurrency(orderitem.totalCostCents)}</div>
+                <div>₹${formatCurrency(orderitem.totalCostCents)}</div>
               </div>
             </div>
 
